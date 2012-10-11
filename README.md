@@ -1,4 +1,4 @@
 tetka
 =====
 
-Another try to make electronic shop software
+Another try to make electronic shop software with Common Lisp.
