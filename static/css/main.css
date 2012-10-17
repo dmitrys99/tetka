@@ -1,23 +1,51 @@
 html, body {
-    margin:           0;
-    padding:          0;
+    margin:  0;
+    padding: 0;
     background-color: #fff;
-    color:            #000;
+    color: #000;
 } 
-div {
-    background-color: blue;
-    width:            200px;
-    height:           200px;
-    position:         relative;
+img {
+    border: none;
 }
+a {
+    text-decoration: none;
+}
+.underline {
+    text-decoration: underline;
+}
+
 ul {
     margin:  0;
     padding: 0;
+    display: block;
 }
 li {
-    margin: 10px;
-    list-style-type: none;
     display: inline-block;
-    *display: inline;
     zoom: 1;
+    font-size: 85%;
+    position: relative;
+    vertical-align: top;
+    width: 12em;
+    min-height: 50px;
+    min-width: 200px;
+    list-style-type: none;
+    margin: 0 25px 3em 0;
+}
+
+.items {
+/*  position: relative;*/
+}
+.image {
+    display: block;
+    height: 200px;
+    line-height: 200px;
+}
+
+p {
+    margin: 0;
+}
+H1 {
+    font-family: "Georgia";
+    text-align: center;
+    font-style: italic;
 }

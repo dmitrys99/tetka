@@ -7,7 +7,9 @@
 	       #:cl-openid
 	       #:iterate
 	       #:log4cl
-	       ;#:chillax
+	       #:chillax
+               #:babel
+               #:cl-ppcre
 	       #:moptilities
 	       #:local-time
 	       #:puri
@@ -20,8 +22,10 @@
   :components ((:file "package")
                (:file "config" )
                (:module "src" :serial t
-                :components ((:file "templates")
-                             (:file "routes"   )
-                             (:file "starter"  )))))
+                        :components ((:file "utils")
+                                     (:file "database")
+                                     (:file "templates")
+                                     (:file "routes"   )
+                                     (:file "starter"  )))))
 
 
